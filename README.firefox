@@ -1,0 +1,17 @@
+FIREFOX
+=======
+
+Aller à l'onglet *about:config*
+
+Ne pas fermer le navigateur avec le dernier onglet
+--------------------------------------------------
+
+    browser.tabs.closeWindowWithLastTab = false
+
+Mettre le cache de Firefox en RAM (permet d'économiser le SSD)
+--------------------------------------------------------------
+
+    browser.cache.disk.enable = false # désactiver le cache sur le disque
+    browser.cache.memory.enable = true # activer le cache en RAM
+    browser.cache.memory.capacity = -1 # laisser Firefox décider de la quantité de RAM à allouer
+
