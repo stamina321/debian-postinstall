@@ -9,5 +9,5 @@ fi
 
 cat << EOF >> /etc/apt/sources.list
 # Debian Buster Backports
-deb http://deb.debian.org/debian buster-backports main
+deb http://deb.debian.org/debian buster-backports main contrib non-free
 EOF
