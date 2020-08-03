@@ -5,7 +5,7 @@
   #add debian backports
   $ echo deb http://deb.debian.org/debian buster-backports main contrib non-free | sudo tee /etc/apt/sources.list.d/buster-backports.list
   
-  #update packages list  
+  #update packages list
   $ sudo apt update
   
   #install latest kernel
