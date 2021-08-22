@@ -11,7 +11,10 @@
     # install latest firmware
     $ sudo apt install -t buster-backports firmware-linux firmware-linux-nonfree
 
-## from Buster (10) to Bullseye (11)
+## From Buster (10) to Bullseye (11)
+
+To migrate from Buster to Bullseye, do this.
+Note that the security repository has been rename.
 
     -- update the system
     # sudo apt update
