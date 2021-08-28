@@ -20,3 +20,8 @@ Coins supérieurs de la fenêtre de Firefox arrondis
 
     mozilla.widget.use-argb-visuals = true # créer la variable si elle n'existe pas
 
+Désactiver le grossissement de la barre d'URL (désactive aussi d'autres animations)
+-----------------------------------------------------------------------------------
+
+    ui.prefersReducedMotion = 1
+
